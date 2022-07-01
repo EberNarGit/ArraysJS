@@ -53,8 +53,8 @@ const search = (query) => {
 // console.log(search('Nico'));
 console.log(search('hsdjkfhdsj'));
 
+//Reto ingresar un arreglo y solo retornar los elementos con mas de o igual de 4 caracteres
 function solution(array){
   return array.filter(item => item.length >= 4);
 };
 
-solution(['perro', 'ana', 'estomago', 'ola']);
